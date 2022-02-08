@@ -1,0 +1,20 @@
+#contact-btn {
+    margin-left: 1rem;
+}
+
+nav .collapse ul li a:hover {
+        outline: 1px solid #FFF;
+    }
+
+@media only screen and (max-width: 767px) {
+    nav .collapse ul {
+        width: auto;
+    }
+
+    nav .collapse ul li {
+        text-align: center;
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        height: 1rem;
+    }
+}
