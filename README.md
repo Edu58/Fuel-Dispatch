@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FuelDispatch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Fuel-Dispatch
+A fuel delivery webapp made in Angular.
+>>>>>>> 82a0aecfc7905d6d04c868cd6187531befe81d13
