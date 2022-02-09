@@ -1,1 +1,10 @@
-<p>search works!</p>
+<section class="container">
+    <form (ngSubmit) = "searchInput()">
+        <div class="search d-flex justify-content-center my-3">
+            <div class="input-group input-group-lg w-50">
+                <input type="search" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="userInput" placeholder="Enter meal name" [(ngModel)] = "userInput">
+                <button type="submit" class="btn btn-md btn-success">Search</button>
+            </div>
+        </div>
+    </form>
+</section>
