@@ -35,6 +35,7 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
+    BrowserModule,
   ],
   providers: [FirebaseCallService],
   bootstrap: [AppComponent]
