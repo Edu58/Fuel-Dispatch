@@ -1,4 +1,6 @@
-
+.about {
+  background: url("/assets/about-images/project.jpeg");
+}
 .us {
   background-color: red;
   height: 600px;
