@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+.container {
+  height: auto;
+}
+
+
+.digital {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 500px;
+  color: white;
+}
+
+.digital>h2 {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: 'poppins';
+  font-style: normal;
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+.digital>p {
+  font-weight: 700;
+  font-family: 'poppins';
+  font-size: 50px;
+  text-shadow: 2px 2px #ff0000;
+
+
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+
+
+}
+
+.order_cycle {
+  margin-top: -700px;
+}
+
+.container3>.delivery {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+
+}
+
+.demand {
+  text-align: center;
+  margin-top: 0;
+
+
+
+}
+
+.demand>h2 {
+  font-size: 50px;
+  color: white;
+  font-family: 'poppins';
+  font-weight: 800;
+  margin-top: -650px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+
+.container4>h2 {
+  margin-left: 30px;
+  font-family: 'poppins';
+  font-weight: bold;
+
+}
+
+
+.container5>h2 {
+  position: relative;
+  font-weight: bold;
+  font-family: 'poppins';
+  margin-left: 90%;
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+
+
+  .digital>h2{
+    display: none;
+    
+
+  }
+
+  .digital>p {
+    display: none;
+
+  }
+
+
+  .order_cycle {
+    margin-top: 70px
+  }
+
+  .container2 {
+    margin-top: -30%;
+  }
+
+  .container3 {
+    margin-top: -18%;
+  }
+
+  .container3>.delivery {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+
+  }
+
+  .demand {
+    text-align: center;
+    margin-top: 60%;
+
+
+
+  }
+
+  .demand>h2 {
+    font-size: 25px;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 800;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .container4 {
+    font-family: 'poppins';
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-top:0;
+    color: white;
+
+
+  }
+
+
+  .container5 {
+    font-weight: bold;
+    font-family: 'poppins';
+    margin-right: 285px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 20px;
+
+
+  }
+
+
+}
