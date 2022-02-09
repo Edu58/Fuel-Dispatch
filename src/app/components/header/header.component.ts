@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseCallService } from '../../Services/firebase-call.service'
+import { FirebaseCallService } from '../../Services/firebase-call.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -10,9 +11,10 @@ export class HeaderComponent implements OnInit {
 
   user: any;
 
-  constructor(public userLogin: FirebaseCallService) { }
+  constructor(public userLogin: FirebaseCallService, private router: Router) { }
   loginUser() {
     this.userLogin.login()
+    this.router.navigate(['search'])
   }
 
   logoutUser() {

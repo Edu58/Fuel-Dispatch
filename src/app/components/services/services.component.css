@@ -22,7 +22,7 @@ span{
 }
 .fuel{
     font-weight: bolder;
-    margin-top: 7%;
+    margin-top: 5%;
     font-size: 20px;
     color: rgb(80, 78, 78);
     text-decoration: underline 3px green;
@@ -32,7 +32,6 @@ span{
     display: inline-flex;
     width: 100%;
     height: 30%;
-    margin-left: 10px;
 }
 ul{
     list-style: none;
@@ -42,11 +41,11 @@ li{
     font-weight: bold;
 }
 img{
-    width: 60%
+    width: 65%
 }
 .fa-star{
     color: rgb(24, 92, 24);
-    font-size: 20px;
+    font-size: 23px;
     margin-right: 50px;
 }
 .flex-container{
@@ -59,6 +58,7 @@ img{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    text-decoration: underline green;
 }
 .p4{
     font-size: 15px;
