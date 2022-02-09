@@ -2,7 +2,7 @@
 .cont {
 
   height: 1000px;
-  background-image: url(https://images.pexels.com/photos/3602009/pexels-photo-3602009.jpeg?cs=srgb&dl=pexels-sergio-souza-3602009.jpg&fm=jpg);
+  background-image: url("/assets/login-images/pexelpetrol.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
