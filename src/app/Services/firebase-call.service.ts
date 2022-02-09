@@ -1,16 +1,22 @@
 import { Injectable } from '@angular/core';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { environment } from 'src/environments/environment';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+import firebase from 'firebase/compat/app';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FirebaseCallService {
-  // Initialize Firebase
+  /* Initialize Firebase
   app = initializeApp(environment.firebaseConfig);
   analytics = getAnalytics(this.app);
+  */
   
-  constructor() { }
+  constructor(public auth: AngularFireAuth) { }
+  login() {
+    this.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
+  }
+  logout() {
+    this.auth.signOut()
+  }
   
 }

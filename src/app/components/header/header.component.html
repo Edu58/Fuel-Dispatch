@@ -7,24 +7,32 @@
     </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav fs-5 fw-bolder">
+      <ul class="navbar-nav fs-6 fw-bolder">
         <li class="nav-item">
-          <a class="nav-link active rounded mx-4" aria-current="page" routerLink="/">Home</a>
+          <a class="nav-link active rounded" aria-current="page" routerLink="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active rounded" aria-current="page" routerLink="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active rounded mx-4" aria-current="page" routerLink="/services">Sevices</a>
+          <a class="nav-link active rounded" aria-current="page" routerLink="/services">Sevices</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active rounded" aria-current="page" routerLink="/contact">Contact</a>
         </li>
       </ul>
 
-      <div class="login d-flex align-items-center btn btn-sm bg-dark" onclick="login()">
-          <img src="https://img.icons8.com/color/48/000000/google-logo.png"/><span class="fs-4 fw-bolder text-light">Login</span>
+      <div *ngIf="userLogin.auth.authState | async as user; else showLogin" class="d-flex text-light">
+        <h5 class="d-flex mx-3">{{ user.displayName }}</h5>
+        <button class="btn btn-sm bg-danger text-light fw-bolder" (click)="logoutUser()">Logout</button>
       </div>
+
+      <ng-template #showLogin>
+        <div class="login d-flex align-items-center btn btn-sm bg-dark" (click)="loginUser()">
+          <img src="https://img.icons8.com/color/30/000000/google-logo.png"/><span class="fs-6 fw-bolder text-light">Login</span>
+        </div>
+      </ng-template>
+
     </div>
   </div>
 </nav>
