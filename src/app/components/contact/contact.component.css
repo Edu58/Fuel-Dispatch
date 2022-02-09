@@ -1,0 +1,49 @@
+.divA {
+    position: absolute;
+    margin: 10%;
+    color: #FFF9F9;
+    font-size: 35px;
+}
+
+.divB {
+    margin: 23%;
+    margin-left: 20%;
+    color: #FFFFFF;
+}
+
+.divC {
+    position: absolute;
+    color: #FFFFFF;
+    margin: 33%;
+    margin-left: 20%;
+}
+
+hr {
+    color: rgba(105, 104, 104, 0.979);
+    width: 350px
+}
+
+button {
+    position: absolute;
+    margin: 10%;
+    width: 90%;
+    height: 5vh;
+    background: rgb(51, 50, 50);
+    border-style: none;
+    color: #FFFFFF;
+}
+
+.divD {
+    position: absolute;
+    margin: 25%;
+    margin-right: 5%;
+    right: 10%;
+    line-height: 10%;
+}
+
+.support {
+    position: absolute;
+    margin: 35%;
+    left: 35%;
+    line-height: 10%;
+}
