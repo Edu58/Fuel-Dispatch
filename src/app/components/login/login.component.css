@@ -20,13 +20,13 @@ img {
 }
 
 input {
-  /* height: 50px; */
+
   width: 270px;
   padding: 10px;
   border: none;
   border-radius: 40px;
   font-weight: bolder;
-  /* opacity: 0.5; */
+ 
 
 
 }
@@ -58,9 +58,28 @@ button {
 
 }
 
+
 .forgot a {
   padding-left: 50px;
   font-size: 15px;
+}
+
+
+
+.fa-facebook{
+  color: blue;
+  font-size: 2.5rem ;
+}
+
+.fa-google-plus{
+  color: rgb(153, 31, 31);
+  font-size: 2.5rem;
+
+}
+
+.fa-twitter{
+  color: skyblue;
+  font-size: 2.5rem ;
 }
 
 
