@@ -1,0 +1,88 @@
+
+.cont {
+
+  height: 1000px;
+  background-image: url(https://images.pexels.com/photos/3602009/pexels-photo-3602009.jpeg?cs=srgb&dl=pexels-sergio-souza-3602009.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  padding-top: 250px;
+  opacity: 5;
+
+
+}
+
+img {
+  border-radius: 50px;
+  opacity: 2;
+}
+
+input {
+  /* height: 50px; */
+  width: 270px;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  font-weight: bolder;
+  /* opacity: 0.5; */
+
+
+}
+
+input[type="checkbox"] {
+  width: 15px;
+
+}
+
+.forgot label {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.forgot a {
+  font-weight: bolder;
+}
+
+
+
+button {
+  border: navy;
+  width: 250px;
+  padding: 10px;
+  border-radius: 40px;
+  color: #ffffff;
+  background-color: #0227215b;
+  font-weight: bolder;
+
+}
+
+.forgot a {
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+
+form {
+  text-align: center;
+  background-color: #0BB664;
+  padding: 20px;
+  height: 70%;
+  width: 30%;
+  border-style: none;
+  opacity: 0.8;
+}
+
+form:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
