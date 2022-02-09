@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseCallService } from '../../Services/firebase-call.service'
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  user: any;
 
-  ngOnInit(): void {
+  constructor(public userLogin: FirebaseCallService) { }
+  loginUser() {
+    this.userLogin.login()
   }
 
+  logoutUser() {
+    this.userLogin.logout()
+  }
+
+  ngOnInit(): void {
+    
+  }
 }
