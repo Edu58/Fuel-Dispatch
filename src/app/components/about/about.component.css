@@ -1,0 +1,90 @@
+.about {
+  background: url("/assets/about-images/project.jpeg");
+}
+.us {
+  background-color: red;
+  height: 600px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+hr{
+  border-color: green;
+  width: 50%;
+  margin: auto;
+}
+.about h1 {
+  color: #0BB664;
+  text-align: center;
+}
+.about p {
+  color: white;
+}
+.p1 {
+  margin-top: 50px;
+}
+.p2 {
+  margin-top: 50px;
+}
+.why {
+  text-align: center;
+  position: relative;
+  top: -200px;
+  color: #0BB664;
+}
+.fast img {
+  width: 70%;
+}
+.reliable img {
+  width: 70%;
+}
+.affordable img {
+  width: 70%;
+}
+.reasons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -150px;
+}
+.reasons span {
+  color: #0BB664;
+}
+.fast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #0BB664;
+  width: 300px;
+  margin-right: 30px;
+  height: 400px;
+}
+.reliable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #0BB664;
+  width: 300px;
+  margin-right: 30px;
+  height: 400px;
+}
+.affordable {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: #0BB664;
+  width: 300px;
+  height: 400px;
+}
