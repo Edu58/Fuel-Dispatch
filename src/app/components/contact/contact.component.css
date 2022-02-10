@@ -1,3 +1,11 @@
+#sectionA {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 90vh;
+    background: #0BB664;
+    margin: 10%;
+}
 .divA {
     position: absolute;
     margin: 10%;
@@ -6,7 +14,7 @@
 }
 
 .divB {
-    margin: 23%;
+    margin: 18%;
     margin-left: 20%;
     color: #FFFFFF;
 }
@@ -14,7 +22,7 @@
 .divC {
     position: absolute;
     color: #FFFFFF;
-    margin: 33%;
+    margin: 28%;
     margin-left: 20%;
 }
 
@@ -35,7 +43,8 @@ button {
 
 .divD {
     position: absolute;
-    margin: 25%;
+    /* border: 1px solid black; */
+    margin: 20%;
     margin-right: 5%;
     right: 10%;
     line-height: 10%;
@@ -43,7 +52,8 @@ button {
 
 .support {
     position: absolute;
-    margin: 35%;
-    left: 35%;
+    margin: 30%;
+    right: 5%;
+    margin-right: 10%;
     line-height: 10%;
 }
