@@ -43,6 +43,8 @@ input[type="checkbox"] {
 
 .forgot a {
   font-weight: bolder;
+  padding-left: 50px;
+  font-size: 15px;
 }
 
 

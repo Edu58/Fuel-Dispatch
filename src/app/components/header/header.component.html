@@ -22,7 +22,13 @@
         </li>
       </ul>
 
-      <div *ngIf="userLogin.auth.authState | async as user; else showLogin" class="d-flex text-light">
+      <div *ngIf="userLogin.auth.authState | async as user; else showLogin" class="d-flex text-light align-items-center">
+        <ul class="navbar-nav fs-6 fw-bolder">
+          <li class="nav-item">
+            <a class="nav-link active rounded" aria-current="page" routerLink="/search">Request</a>
+          </li>
+        </ul>
+
         <h5 class="d-flex mx-3">{{ user.displayName }}</h5>
         <button class="btn btn-sm bg-danger text-light fw-bolder" (click)="logoutUser()">Logout</button>
       </div>
