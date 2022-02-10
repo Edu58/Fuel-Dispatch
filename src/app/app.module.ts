@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
@@ -38,7 +39,11 @@ import { GoogleMapsService } from './Services/google-maps.service';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: environment.gMapsAPI,
+      libraries: ['places']
+    })
   ],
   providers: [FirebaseCallService, GoogleMapsService],
   bootstrap: [AppComponent]
