@@ -88,3 +88,32 @@ hr{
   width: 300px;
   height: 400px;
 }
+@media only screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fast {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .reliable {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .affordable {
+    margin-left: -22gpx;
+  }
+}
