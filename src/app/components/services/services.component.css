@@ -35,13 +35,14 @@ span{
 }
 ul{
     list-style: none;
+    margin-left: 20%;
 }
 li{
-    padding: 40px 0 80px 0;
     font-weight: bold;
+    padding: 45px 0 40px 0;
 }
 img{
-    width: 65%
+    width: 70%
 }
 .fa-star{
     color: rgb(24, 92, 24);
@@ -71,4 +72,10 @@ img{
 }
 #third{
     margin-left: 30%;
+}
+.carousel-inner{
+    width: 200%;
+}
+.carousel-slide{
+    margin-left: 5px;
 }
