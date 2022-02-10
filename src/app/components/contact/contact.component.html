@@ -1,27 +1,37 @@
-<section id="sectionA">
- <div class="divA">
-    <h1> CONTACT US </h1>
-</div>
-<div class="divB">
-    <p> feel free to contact us and we will get <br> back to you as soon as we can  </p>
-</div>
-<div class="divC">
-    <p> Name </p>
-    <hr>
-    <p> Email Address </p>
-    <hr>
-    <p> tell us about it </p>
-    <hr>
-    <button> Send </button>
-</div>
-<div class="divD">
-    <p> Address </p>
-    <p style="color: #FFF;"> example@gmail.com </p>
-    </div>
+<div class="main d-flex justify-contain-center align-items-center">
+    <div class="container w-50 rounded d-flex align-items-center">
+        <form class="p-5">
+            <div class="contactus text-light d-flex justify-content-center flex-column align-items-left">
+                <h2>Contact Us</h2>
+                <p> feel free to contact us and we will get back<br>  to you as soon as we can </p>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-light fw-bolder fs-4">Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label text-light fw-bolder fs-4">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark mt-4 text-light w-100">Send</button>
+        </form>
 
-    <div class="support">
-    <P> support</P>
-    <p style="color: #FFF;"> example@gmail.com</p>
-    <p style="color: #FFF;"> +254 700 000 000 </p>
+        <div class="address mx-2">
+            <div class="text1">
+                <h4 class="text-dark">Address</h4>
+                <p class="text-light"> example@gmail.com</p>
+            </div>
+
+            <div class="support">
+                <h4 class="text-dark">Support</h4>
+                <p class="text-light"> example@gmail.com </p>
+            </div>
+        </div>
     </div>
-</section>
+</div>
+
