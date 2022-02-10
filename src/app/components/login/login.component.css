@@ -46,7 +46,7 @@ input[type="checkbox"] {
   padding-left: 50px;
   font-size: 15px;
 }
-
+n
 
 
 button {
@@ -103,6 +103,57 @@ form:hover {
 
 
 
+
+
+
+
+
+
+@media screen and (min-width:320px) {
+
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0BB664;
+    padding: 20px;
+    height: 620px;
+    width: 350px;
+    border-style: none;
+    opacity: 0.8;
+  }
+
+
+
+
+  .fa-twitter {
+    color: rgb(8, 46, 61);
+    font-size: 2.5rem;
+  }
+}
+
+
+@media screen and (min-width:280px) {
+  form {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0BB664;
+    padding: 20px;
+    height: 620px;
+    width: 350px;
+    border-style: none;
+    opacity: 0.8;
+
+
+  }
+
+
+
+
+
+}
 
 
 
